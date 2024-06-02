@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Talents</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('image/akoto.jpg');
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 70%;
+            padding: 30px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        
+        .navbar a {
+            font-size: 18px;
+            color: #081b29;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: .3s;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: #00abf0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 150px auto 50px; /* Increased top margin to move it further down */
+            padding: 20px;
+            background-color: #00abf0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #e7e7e7;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">                                                                                                                                                             
+        <a href="#" class="logo"></a>
+
+        <nav class="navbar">
+            <a href="index.html" class="_self"  title="Go back?">Home</a>
+            <a href="navbar.html" class="_self">About</a>
+            <a href="#" class="active">Service</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>My Talents</h1>
+        <ul>
+            <li>C++</li>
+            <li>JAVA</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>MySQL</li>
+            <li>Web Development</li>
+        </ul>
+    </div>
+</body>
+</html>
